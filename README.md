@@ -45,7 +45,8 @@ A robust, React-based spreadsheet application that mimics core Excel functionali
     ```bash
     npm run build
     ```
-
+## Live Link 
+ link - https://spreadsheet-formula-engine.vercel.app/
 ## Testing Formulas
 To verify the engine, try entering these values:
 1.  **Basic Math:** Enter `=10+20` in `A1`.
