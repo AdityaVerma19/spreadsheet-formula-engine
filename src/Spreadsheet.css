@@ -1,0 +1,55 @@
+/* src/Spreadsheet.css */
+
+/* The main container for the grid */
+.spreadsheet-grid {
+    display: grid;
+    /* 50px for row headers, then 10 columns of 80px each */
+    grid-template-columns: 50px repeat(10, 80px);
+    overflow: auto;
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 20px auto; /* Centers the grid */
+  }
+  
+  /* Common style for all cells and headers */
+  .cell-base {
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  /* Header styling (A, B, C... and 1, 2, 3...) */
+  .header-col {
+    background-color: #f3f4f6; /* Light gray */
+    font-weight: bold;
+    color: #374151;
+  }
+  
+  /* The actual editable cells */
+  .cell-item {
+    cursor: pointer;
+    padding: 0 4px;
+    justify-content: flex-start; /* Align text to left */
+  }
+  
+  /* Selected cell highlight */
+  .cell-selected {
+    border: 2px solid #3b82f6 !important; /* Blue border */
+    z-index: 10;
+  }
+  
+  /* Input box inside the cell */
+  .cell-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+  }
