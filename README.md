@@ -27,7 +27,7 @@ A robust, React-based spreadsheet application that mimics core Excel functionali
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/AdityaVerma19/spreadsheet-engine.git](https://github.com/AdityaVerma19/spreadsheet-engine.git)
+    git clone [https://github.com/AdityaVerma19/spreadsheet-formula-engine.git](https://github.com/AdityaVerma19/spreadsheet-formula-engine.git)
     cd spreadsheet-engine
     ```
 
